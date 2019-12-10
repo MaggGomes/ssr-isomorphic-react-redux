@@ -14,7 +14,7 @@ module.exports = {
         path: path.resolve(__dirname, 'build')
     },
 
-    externals: [webpackNodeExternal()],
+    //externals: [webpackNodeExternal()],
 
     // Tell webpack to run babel on every file ir runs through
     module: {
